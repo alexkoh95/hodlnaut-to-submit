@@ -12,6 +12,10 @@ Dependencies to download:
 - nodemon
 - request 
 
+"npm run dev" to run the server 
+
+"npm run test" to run the test
+
 ## Questions
 
 ### 1. (Optional) If you didn’t have time to complete your intended design, what else would you have done?
