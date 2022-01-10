@@ -12,6 +12,8 @@ Dependencies to download:
 - nodemon
 - request 
 
+"npm init -y" to set up the environment 
+
 "npm run dev" to run the server 
 
 "npm run test" to run the test
