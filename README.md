@@ -1,4 +1,6 @@
-# Hodlnaut
+# Hodlnaut 
+
+This was written by Alex Koh as requirements for a test to submit to Hodlnaut. 
 
 Dependencies to download:
 - express
@@ -10,14 +12,14 @@ Dependencies to download:
 - nodemon
 - request 
 
-Questions
+## Questions
 
-1. (Optional) If you didn’t have time to complete your intended design, what else would you have done?
+### 1. (Optional) If you didn’t have time to complete your intended design, what else would you have done?
 
 ANSWER:
 Ideally I would have liked more time to learn what is expected professionally when writing tests. I have written 4 basic tests as mentioned in the comments to describe the test in test.js
 
-2. Which took the most time? What did you find most difficult?
+### 2. Which took the most time? What did you find most difficult?
 
 ANSWER:
 There were two parts to the test which I spent the most time on: (1) Making my codes as modular as possible and (2) Learning Mocha and Chai to write tests.
@@ -26,7 +28,7 @@ There were two parts to the test which I spent the most time on: (1) Making my c
 
 (2) I have not written tests before, thus I had to read the documentation for Mocha and Chai.
 
-3. If we wanted the balance to update on the frontend more often (10 times per second), how would you improve the current system to handle this?
+### 3. If we wanted the balance to update on the frontend more often (10 times per second), how would you improve the current system to handle this?
 
 ANSWER:
 I have not encountered a requirement where the frontend has needed to update more than 10x a second. However, based on the documentation in Express I have done the following to maximise the speed of the application:
@@ -35,7 +37,7 @@ a) Avoid synchronous functions
 b) Remove console.logs where relevant to improve speed
 c) Handle exceptions with try-catch
 
-4. How did you find the test overall? If you have any suggestions on how we can improve the test, we'd love to hear them!
+### 4. How did you find the test overall? If you have any suggestions on how we can improve the test, we'd love to hear them!
 
 ANSWER:
 I found this test enjoyable as I have learnt a lot in two areas.
