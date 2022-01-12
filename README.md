@@ -19,9 +19,11 @@ Dependencies to download:
 "npm run test" to run the test
 
 ## Description of files and folders
+
+### Files
 server.js is the entry point of the application. 
 
-###Folders 
+### Folders 
 Middleware: this contains fetch-crypto-currency-data.js. This is the function that fetches real-time crypto price data. It uses bitstamp API and stores bitcoin and ethereum prices in res.locals.prices. 
 
 Models: this contains test-data.js. This is the seed data. 
