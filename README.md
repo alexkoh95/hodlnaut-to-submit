@@ -33,10 +33,10 @@ Routes: this contains the parent route (router.js) that is imported in server.js
 Services: this contains currency-service.js. This is a function that serves business logic - it calculates a user's account value in USD by converting the user's holding of bitcoin and ethereum into USD.
 
 Test: this contains test.js. This runs a test for the GET route - testing for 4 areas 
-(1) whether the res returns a status 200
-(2) whether res.body is an object 
-(3) whether res.body has the required keys to display a user's data (user_id, holdings, totalAccountValueInUSD)
-(4) whether the GET route returns the appropriate user's data
+(1) whether the res returns a status 200  
+(2) whether res.body is an object  
+(3) whether res.body has the required keys to display a user's data (user_id, holdings, totalAccountValueInUSD)  
+(4) whether the GET route returns the appropriate user's data  
 
 ## Questions
 
