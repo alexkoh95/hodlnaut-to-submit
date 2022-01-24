@@ -20,27 +20,27 @@ This was written by Alex Koh as requirements for a test to submit to Hodlnaut.
 
 ## Description of files and folders
 
-### Files
-#### server.js
+## Files
+### server.js
 server.js is the entry point of the application. 
 
-### Folders 
+## Folders 
 
-#### Middleware 
+### Middleware 
 Middleware - this contains fetch-crypto-currency-data.js. This is the function that fetches real-time crypto price data. It uses bitstamp API and stores bitcoin and ethereum prices in res.locals.prices. 
 
-#### Models
+### Models
 Models - this contains test-data.js. This is the seed data. 
 
 
-#### Routes
+### Routes
 Routes - this contains the parent route (router.js) that is imported in server.js. user.js is the GET route that returns the user's information (user_id, hodlings, totalAccountvlaueInUSD) 
 
-#### Services
+### Services
 Services - this contains currency-service.js. This is a function that serves business logic - it calculates a user's account value in USD by converting the user's holding of bitcoin and ethereum into USD.
 
 
-#### Test 
+### Test 
 Test - this contains test.js. This runs a test for the GET route - testing for 4 areas  
 (1) whether the res returns a status 200  
 (2) whether res.body is an object  
